@@ -33,7 +33,7 @@ html {
 }
 
 .pokedex-title-container p {
-    margin: 1rem;
+    /* margin: 1rem; */
     font-size: 1.2rem;
     color: white;
 }
@@ -71,8 +71,8 @@ html {
     border-radius: 4px;
     color: #000;
     text-align: center;
-    padding: 1rem;
-    margin: 2rem auto;
+    /* padding: 1rem; */
+    margin: 0 auto 2rem auto;
     background-color: #FFF;
     border: 1px solid black;
 }
