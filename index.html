@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Pokedex by fran</title>
+</head>
+<body>
+    <div class="pokedex">
+        <div class="pokedex-title-container">
+            <h1> Pokedex </h1>
+            <h2> - Find a pokemon! -</h2>
+            <p> Enter the name of a pokemon to see its information: </p>
+            <input id="input" type="text" placeholder="Enter a pokemon name">
+            <button id="searchBtn">GO</button>
+        </div>
+        
+        <div class="pokedex-container">
+            <h3 class="poke-name"></h3>
+            <div class='poke-img-container'>
+                <img class='poke-img' src="./images/poke-shadow.png"/>
+            </div>
+            <h4 class="poke-id"></h4>
+            <div class="poke-types"></div>          
+            <div class="poke-stats"></div>
+        </div>
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+</html>

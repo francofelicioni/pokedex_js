@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.pokedex {
+    width: 100vw;
+    height: auto;
+    background: #FD0065;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokedex-title-container {
+    text-align: center;
+    padding: 1rem;
+}
+
+.pokedex-title-container h1 {
+    font-size: 4rem;
+}
+
+.pokedex-title-container h2 {
+    padding: 1rem 0;
+    font-size: 2.5rem;
+}
+
+.pokedex-title-container p {
+    margin: 1rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.pokedex-title-container input {
+    margin: 2rem;
+    width: 200px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#input{
+    padding: .3rem .5rem ;
+    text-align: left;
+}
+
+#searchBtn {
+    padding: .2rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #FFCC64;
+    border: 2px solid white;
+    transition: all .5s ease;
+}
+
+#searchBtn:hover {
+    font-size: 1.2rem;
+}
+
+.pokedex-container {
+    position: relative;
+    height: fit-content;
+    max-width: 300px;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem auto;
+    background-color: #FFF;
+    border: 1px solid black;
+}
+
+.pokedex-container::before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background: radial-gradient(black 33%, transparent 33%);
+    background-size: 3px 3px;
+    border-radius: 4px;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+}
+
+.poke-name, .poke-id {
+    font-size: 1.8rem;
+}
+
+.poke-img-container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.poke-img {
+    width: 180px;
+    border-radius: 50%
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.poke-types {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+}
