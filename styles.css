@@ -25,21 +25,21 @@ html {
 
 .pokedex-title-container h1 {
     font-size: 4rem;
+    margin: 1rem auto;
 }
 
 .pokedex-title-container h2 {
-    padding: 1rem 0;
+    margin: 1rem auto;
     font-size: 2.5rem;
 }
 
 .pokedex-title-container p {
-    /* margin: 1rem; */
     font-size: 1.2rem;
     color: white;
 }
 
 .pokedex-title-container input {
-    margin: 2rem;
+    margin: 2rem auto;
     width: 200px;
     font-size: 1rem;
     text-align: center;
@@ -91,6 +91,7 @@ html {
 }
 
 .poke-name, .poke-id {
+    margin: .5rem 0;
     font-size: 1.8rem;
 }
 
@@ -102,19 +103,20 @@ html {
 
 .poke-img {
     width: 180px;
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 .poke-stats div {
     display: flex;
     justify-content: space-between;
     align-content: space-between;
-    padding: 5px;
+    padding: 5px 10px;
     font-size: 18px;
 }
 
 .poke-types {
     padding: 5px;
-    margin: 5px;
+    margin: 5px 10px;
     border-radius: 4px;
+    font-size: 20px;
 }
