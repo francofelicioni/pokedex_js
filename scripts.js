@@ -99,4 +99,6 @@ const renderError = () => {
     pokeId.textContent = '';
     pokeStats.innerHTML = '';
     pokeTypes.innerHTML = '';
+    pokeTypes.style.border = 'none';
+    pokeImg.style.background = 'none';
 }
